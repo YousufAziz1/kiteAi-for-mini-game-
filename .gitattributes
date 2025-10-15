@@ -1,4 +1,0 @@
-# Track common large binary assets with Git LFS
-assets/* filter=lfs diff=lfs merge=lfs -text
-# If you add other large files (zip, exe, bin) you can add patterns here:
-# *.zip filter=lfs diff=lfs merge=lfs -text
