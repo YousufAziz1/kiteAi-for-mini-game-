@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Character Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hud">
+    <div class="left">
+      <div class="title">Character Runner</div>
+      <div class="subtitle">Dodge the blocks. Survive as long as you can.</div>
+    </div>
+    <div class="right">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="score">Best: <span id="best">0</span></div>
+    </div>
+  </div>
+
+  <canvas id="game" width="960" height="540" aria-label="Game canvas"></canvas>
+
+  <div class="controls">
+    <button id="btn-left" aria-label="Move Left">⟵</button>
+    <button id="btn-up" aria-label="Move Up">⟰</button>
+    <button id="btn-down" aria-label="Move Down">⟱</button>
+    <button id="btn-right" aria-label="Move Right">⟶</button>
+  </div>
+
+  <div id="overlay" class="overlay hidden">
+    <div class="card">
+      <h1>Game Over</h1>
+      <p>Your score: <span id="finalScore">0</span></p>
+      <button id="restart">Play Again</button>
+      <p class="hint">Tip: Hold and slide on the canvas (mobile) or use arrow keys (desktop).</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
