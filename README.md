@@ -1,4 +1,4 @@
-# Character Runner
+# kiteAi-for-mini-game-
 
 A fast, minimal browser game where you dodge obstacles and survive as long as possible. It supports keyboard, on-screen buttons, and drag controls. You can plug in your own character image.
 
